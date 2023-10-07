@@ -15,6 +15,10 @@ import Teacher from "../Views/Teacher/Teacher/index"
 import AddTeacher from "../Views/Teacher/AddTeacher/index"
 import EditTeacher from "../Views/Teacher/EditTeacher/index"
 import CreateUser from "../Views/CreateUser";
+import EditAccounts from "../Views/Accounts/EditAccount";
+import AddAccounts from "../Views/Accounts/AddAccount";
+import Accounts from "../Views/Accounts/Accounts";
+
 
 
 
@@ -56,6 +60,11 @@ function AppRouter() {
         <Route path="/teacher/add" element={<AddTeacher />} />
         <Route path="/teacher/edit/:id" element={<EditTeacher />} />
         <Route path="/teacher/edit" element={<EditTeacher />} />
+
+        <Route path="/accounts" element={<Accounts/>} />
+        <Route path="/accounts/add" element={<AddAccounts/>} />
+        <Route path="/accounts/edit/:id" element={<EditAccounts/>} />
+        <Route path="/accounts/edit" element={<EditAccounts/>} />
 
       
       </Routes>

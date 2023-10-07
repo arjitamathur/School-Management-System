@@ -59,6 +59,14 @@ function Sidebar() {
               Teachers List
             </a>
           </li>
+          <li>
+            <a
+              href="/accounts"
+              className={activeLink === "/accounts" ? "active" : ""}
+            >
+              Accountants List
+            </a>
+          </li>
         </ul>
       </nav>
     </div>
